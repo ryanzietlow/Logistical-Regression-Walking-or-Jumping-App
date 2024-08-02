@@ -1,9 +1,3 @@
-# Logistical-Regression-Walking-or-Jumping-App
-
-Here's a detailed GitHub README for your project:
-
----
-
 # Logistical Regression Walking or Jumping App
 
 This project aims to create a desktop application that can distinguish between the actions of walking and jumping using accelerometer data. The application takes data from CSV files, processes it, and outputs a new CSV file labeling each action as either walking or jumping.
@@ -42,7 +36,8 @@ To correctly store the raw data, several steps were taken:
 
 The collected data was visualized using 3D scatter plots and time-series graphs to observe the acceleration data in the X, Y, and Z directions. This visualization helped in understanding the distinct patterns in walking and jumping data.
 
-![Walking Acceleration](images/walking_acceleration.png)
+![Walking Acceleratio<img width="671" alt="Screenshot 2024-08-01 at 8 06 02 PM" src="https://github.com/user-attachments/assets/ce7b85bd-5a98-45f8-977a-a84243435b9d">
+n](images/walking_acceleration.png)
 ![Jumping Acceleration](images/jumping_acceleration.png)
 
 ## Pre-Processing
@@ -66,4 +61,3 @@ The classifier was trained using a machine learning pipeline with StandardScaler
 The model was deployed into a graphical user interface (GUI) using Tkinter. The GUI allows users to input a CSV file, processes the data, and outputs a labeled CSV file along with a visualization of the results. However, there was an issue with feature names not matching between the training model and the prediction phase, which the team was unable to resolve.
 
 ![GUI](images/gui.png)
-![Error](images/error.png)
