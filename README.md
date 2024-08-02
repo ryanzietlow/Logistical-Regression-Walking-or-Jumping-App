@@ -37,9 +37,7 @@ To correctly store the raw data, several steps were taken:
 The collected data was visualized using 3D scatter plots and time-series graphs to observe the acceleration data in the X, Y, and Z directions. This visualization helped in understanding the distinct patterns in walking and jumping data.
 
 <img width="671" alt="Screenshot 2024-08-01 at 8 06 02 PM" src="https://github.com/user-attachments/assets/28528a4a-1a8c-4861-9bec-cfb4b927a860">
-
-n](images/walking_acceleration.png)
-![Jumping Acceleration](images/jumping_acceleration.png)
+<img width="584" alt="Screenshot 2024-08-01 at 8 06 10 PM" src="https://github.com/user-attachments/assets/c4ecc6f2-dc39-4c27-9f3c-6e8e67306728">
 
 ## Pre-Processing
 
@@ -53,12 +51,12 @@ Features such as mean, max, min, median, standard deviation, skew, kurtosis, var
 
 The classifier was trained using a machine learning pipeline with StandardScaler and LogisticRegression. The model was evaluated using accuracy, recall, confusion matrix, ROC curve, and AUC to ensure its performance.
 
-![Confusion Matrix](images/confusion_matrix.png)
-![ROC Curve](images/roc_curve.png)
-![Model Accuracy](images/model_accuracy.png)
+<img width="583" alt="Screenshot 2024-08-01 at 8 06 25 PM" src="https://github.com/user-attachments/assets/132fc4bd-d4a8-4c54-a749-3c904416b2f4">
+<img width="592" alt="Screenshot 2024-08-01 at 8 06 36 PM" src="https://github.com/user-attachments/assets/2b817eac-a1ab-4861-87fb-f1228c7212dc">
+<img width="586" alt="Screenshot 2024-08-01 at 8 06 49 PM" src="https://github.com/user-attachments/assets/de228506-0294-469f-bd3d-05efae2e186c">
 
 ## Model Deployment
 
 The model was deployed into a graphical user interface (GUI) using Tkinter. The GUI allows users to input a CSV file, processes the data, and outputs a labeled CSV file along with a visualization of the results. However, there was an issue with feature names not matching between the training model and the prediction phase, which the team was unable to resolve.
 
-![GUI](images/gui.png)
+<img width="683" alt="Screenshot 2024-08-01 at 8 07 06 PM" src="https://github.com/user-attachments/assets/7367fa72-1acf-4813-acee-794a6b40242b">
