@@ -36,7 +36,7 @@ To correctly store the raw data, several steps were taken:
 
 The collected data was visualized using 3D scatter plots and time-series graphs to observe the acceleration data in the X, Y, and Z directions. This visualization helped in understanding the distinct patterns in walking and jumping data.
 
-![Walking Acceleratio<img width="671" alt="Screenshot 2024-08-01 at 8 06 02 PM" src="https://github.com/user-attachments/assets/ce7b85bd-5a98-45f8-977a-a84243435b9d">
+[url=https://postimg.cc/BtTsgDwr][img]https://i.postimg.cc/BtTsgDwr/Screenshot-2024-08-01-at-8-06-02-PM.png[/img][/url]
 n](images/walking_acceleration.png)
 ![Jumping Acceleration](images/jumping_acceleration.png)
 
